@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/navBar";
+import Footer from "./components/footer";
 import Home from "./pages/home";
 //import Services from "./pages/services";
 //import Projects from "./pages/projects";
@@ -16,6 +17,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
