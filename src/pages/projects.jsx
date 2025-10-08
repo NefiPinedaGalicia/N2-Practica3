@@ -33,7 +33,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-1 w-full max-w-4xl p-4 bg-white/40 rounded-4xl">
+      <div className="grid grid-cols-3 gap-1 w-full max-w-4xl p-8 bg-white/40 rounded-4xl">
         {columns.map((col, colIndex) => (
           <div key={colIndex} className="flex flex-col gap-1">
             {col.map((src, index) => {
