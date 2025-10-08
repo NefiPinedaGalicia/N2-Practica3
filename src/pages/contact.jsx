@@ -66,8 +66,8 @@ export default function Contact() {
           <div className="space-y-8">
             {contactInfo.map((item, index) => (
               <div key={index} className="flex items-start space-x-4">
-                <div className="bg-white rounded-xl p-2 flex-shrink-0 w-10 h-10 flex items-center justify-center">
-                  <div className="text-purple-600 size-5 flex items-center justify-center">
+                <div className="bg-gradient-to-r from-[#6d5dfc] to-[#56a3ff] rounded-xl p-2 flex-shrink-0 w-10 h-10 flex items-center justify-center">
+                  <div className="text-white size-5 flex items-center justify-center">
                     {createIcon(item.icon)}
                   </div>
                 </div>

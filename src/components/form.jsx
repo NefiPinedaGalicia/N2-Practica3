@@ -116,7 +116,7 @@ export default function Form() {
 
       <button
         type="submit"
-        className="w-full bg-purple-600 text-white py-3 px-6 rounded-2xl font-medium hover:bg-purple-700 transition-colors duration-300"
+        className="w-full bg-gradient-to-r from-[#6d5dfc] to-[#56a3ff] text-white py-3 px-6 rounded-2xl font-medium transition-all hover:opacity-90"
       >
         Submit
       </button>
