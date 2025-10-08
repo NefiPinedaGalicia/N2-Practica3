@@ -46,22 +46,21 @@ export default function Contact() {
   ];
 
   return (
-    <section className="w-full min-h-screen bg-gradient-to-br from-[#f8f5ff] via-[#f5f7ff] to-[#fff9f5] flex flex-col items-center py-10 px-4">
+    <section className="w-full min-h-screen bg-gradient-to-br from-[#f8f5ff] via-[#f5f7ff] to-[#fff9f5] flex flex-col items-center py-10 px-4 relative">
+      <div className="absolute top-45/100 transform -translate-y-1/2 right-0 w-70/100 bg-[#e5e4f8] rounded-l-full z-0 h-120"></div>
+
       {/* Título centrado */}
-      <div className="text-center mb-14">
+      <div className="text-center mb-14 relative z-10">
         <h2 className="text-3xl font-semibold text-gray-800 mb-2">
           Contact Us
         </h2>
       </div>
 
-      {/* Contenido del contacto */}
-      <div className="max-w-4xl w-full grid grid-cols-2 gap-12">
-        {/* Contact Form con fondo */}
-        <div className="bg-white/40 rounded-4xl p-8 shadow-lg">
+      <div className="max-w-4xl w-full grid grid-cols-2 gap-12 relative z-10">
+        <div className="bg-white/80 rounded-4xl p-8 shadow-lg">
           <Form />
         </div>
 
-        {/* Contact Information SIN fondo */}
         <div className="flex flex-col justify-center">
           <div className="space-y-8">
             {contactInfo.map((item, index) => (
